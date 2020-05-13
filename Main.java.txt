@@ -1,6 +1,11 @@
     public class Main {
 
-        public static void main(String[] args) { System.out.println("Hello world!");
+        public static void main(String[] args) {
+
+             Scanner in = new Scanner(System.in);
+             System.out.println("Введите cвое имя: ");
+             String name = in.next();
+             System.out.println("Hello " + name + " !");
 
             }
 
